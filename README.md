@@ -5,6 +5,26 @@ Thanks for the amazing work made by CaptainHook ( https://github.com/CaptainHook
 
 ## Installation
 
+Add the dependency to your `composer.json`:
+
+    {
+      ...
+      "require-dev": {
+        ...
+        "davidelunardon/magelistattribute": "dev-master",
+        ...
+      },
+      "repositories": [
+        ...
+        {
+          "type": "vcs",
+          "url":  "git@github.com:DavideLunardon/dadolunhook.git"
+        },
+        ...
+      ],
+      ...
+    }
+
 Use *Composer* to install *DadolunHook*.
 ```bash
     $ composer require --dev davidelunardon/dadolunhook
