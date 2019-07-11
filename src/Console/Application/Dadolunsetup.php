@@ -3,13 +3,14 @@
 namespace DadolunHook\App\Console\Application;
 
 use CaptainHook\App\Console\Application;
-use CaptainHook\App\Console\Command as Cmd;
+use DadolunHook\App\Console\Command as Cmd;
+use CaptainHook\App\Console\Application\Setup as CaptainHookSetup;
 
 /**
  * Class Dadolunsetup
- * @package CaptainHook\App\Console\Application
+ * @package DadolunHook\App\Console\Application
  */
-class Dadolunsetup extends Setup
+class Dadolunsetup extends CaptainHookSetup
 {
     /**
      * Initializes all the CaptainHook commands.

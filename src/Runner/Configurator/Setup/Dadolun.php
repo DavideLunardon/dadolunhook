@@ -1,17 +1,19 @@
 <?php
 
-namespace CaptainHook\App\Runner\Configurator\Setup;
+namespace DadolunHook\App\Runner\Configurator\Setup;
 
 use CaptainHook\App\Config;
 use CaptainHook\App\Console\IOUtil;
 use CaptainHook\App\Hooks;
 use CaptainHook\App\Runner\Configurator\Setup;
+use CaptainHook\App\Console\Application\Setup as CaptainHookSetup;
+use CaptainHook\App\Runner\Configurator\Setup\Express as CaptainHookExpress;
 
 /**
  * Class Dadolun
  * @package CaptainHook\App\Runner\Configurator\Setup
  */
-class Dadolun extends Express implements Setup
+class Dadolun extends CaptainHookExpress implements CaptainHookSetup
 {
     /**
      * Setup hooks by asking some basic questions

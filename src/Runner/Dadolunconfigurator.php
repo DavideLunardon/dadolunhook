@@ -7,12 +7,13 @@ use CaptainHook\App\Console\IOUtil;
 use CaptainHook\App\Hook\Util;
 use CaptainHook\App\Runner;
 use CaptainHook\App\Storage\File\Json;
+use CaptainHook\App\Runner\Configurator as CaptainHookConfigurator;
 
 /**
  * Class Dadolunconfigurator
- * @package CaptainHook\App\Runner
+ * @package DadolunHook\App\Runner
  */
-class Dadolunconfigurator extends Configurator
+class Dadolunconfigurator extends CaptainHookConfigurator
 {
 
     /**

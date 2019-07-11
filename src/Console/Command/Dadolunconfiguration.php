@@ -6,12 +6,13 @@ use DadolunHook\App\Runner\Dadolunconfigurator;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Output\OutputInterface;
+use DadolunHook\App\Console\Command\Base as CaptainHookBase;
 
 /**
  * Class Dadolunconfiguration
- * @package CaptainHook\App\Console\Command
+ * @package DadolunHook\App\Console\Command
  */
-class Dadolunconfiguration extends Base
+class Dadolunconfiguration extends CaptainHookBase
 {
     /**
      * Configure the command.
