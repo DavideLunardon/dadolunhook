@@ -1,6 +1,6 @@
 <?php
 
-namespace CaptainHook\App\Runner;
+namespace DadolunHook\App\Runner;
 
 use CaptainHook\App\Config;
 use CaptainHook\App\Console\IOUtil;

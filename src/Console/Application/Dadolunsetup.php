@@ -1,6 +1,6 @@
 <?php
 
-namespace CaptainHook\App\Console\Application;
+namespace DadolunHook\App\Console\Application;
 
 use CaptainHook\App\Console\Application;
 use CaptainHook\App\Console\Command as Cmd;
