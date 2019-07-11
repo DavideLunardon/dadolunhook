@@ -37,11 +37,6 @@
   "bin": [
     "dadolunhook"
   ],
-  "extra": {
-    "branch-alias": {
-      "dev-master": "0.9.x-dev"
-    }
-  },
   "scripts": {
     "post-install-cmd": [
       "\\DadolunHook\\App\\Composer\\Cmd::dadolunconfigure"
