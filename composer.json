@@ -1,5 +1,5 @@
 {
-  "name": "captainhook/captainhook",
+  "name": "davidelunardon/dadolunhook",
   "description": "Captainhook extension adding custom hooks",
   "type": "library",
   "keywords": ["git", "hooks", "pre-commit", "pre-push", "commit-msg", "captainhook"],
