@@ -44,9 +44,7 @@
   },
   "scripts": {
     "post-install-cmd": [
-      "\\CaptainHook\\App\\Composer\\Cmd::configure",
-      "\\DadolunHook\\App\\Composer\\Cmd::dadolunconfigure",
-      "\\CaptainHook\\App\\Composer\\Cmd::install"
+      "\\DadolunHook\\App\\Composer\\Cmd::dadolunconfigure"
     ]
   },
   "suggest": {
