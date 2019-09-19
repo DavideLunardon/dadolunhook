@@ -2,17 +2,17 @@
 
 namespace DadolunHook\App\Console\Command;
 
-use DadolunHook\App\Runner\Dadolunconfigurator;
+use DadolunHook\App\Runner\DadolunConfigurator;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Output\OutputInterface;
 use CaptainHook\App\Console\Command\Base as CaptainHookBase;
 
 /**
- * Class Dadolunconfiguration
+ * Class DadolunConfiguration
  * @package DadolunHook\App\Console\Command
  */
-class Dadolunconfiguration extends CaptainHookBase
+class DadolunConfiguration extends CaptainHookBase
 {
     /**
      * Configure the command.

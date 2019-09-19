@@ -10,10 +10,10 @@ use CaptainHook\App\Storage\File\Json;
 use CaptainHook\App\Runner\Configurator as CaptainHookConfigurator;
 
 /**
- * Class Dadolunconfigurator
+ * Class DadolunConfigurator
  * @package DadolunHook\App\Runner
  */
-class Dadolunconfigurator extends CaptainHookConfigurator
+class DadolunConfigurator extends CaptainHookConfigurator
 {
 
     /**

@@ -7,10 +7,10 @@ use DadolunHook\App\Console\Command as Cmd;
 use CaptainHook\App\Console\Application\Setup as CaptainHookSetup;
 
 /**
- * Class Dadolunsetup
+ * Class DadolunSetup
  * @package DadolunHook\App\Console\Application
  */
-class Dadolunsetup extends CaptainHookSetup
+class DadolunSetup extends CaptainHookSetup
 {
     /**
      * Initializes all the CaptainHook commands.
@@ -22,7 +22,7 @@ class Dadolunsetup extends CaptainHookSetup
         $commands = parent::getDefaultCommands();
         array_push(
             $commands,
-            new Cmd\Dadolunconfiguration()
+            new Cmd\DadolunConfiguration()
         );
         return $commands;
     }

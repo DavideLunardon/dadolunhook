@@ -20,5 +20,5 @@ if (!defined('DADOLUNHOOK_COMPOSER_AUTOLOAD')) {
 
 require DADOLUNHOOK_COMPOSER_AUTOLOAD;
 
-$app = new DadolunHook\App\Console\Application\Dadolunsetup();
+$app = new DadolunHook\App\Console\Application\DadolunSetup();
 $app->run();
