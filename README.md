@@ -20,7 +20,7 @@ Add the dependency to your `composer.json`:
         ...
         {
           "type": "vcs",
-          "url":  "git@github.com:DavideLunardon/dadolunhook.git"
+          "url":  "git@github.com:dadolun95/dadolunhook.git"
         },
         ...
       ],
