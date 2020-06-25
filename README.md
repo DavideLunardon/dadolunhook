@@ -1,7 +1,9 @@
 # dadolunhook
 CaptainHook extension adding customized hooks
-
 Thanks for the amazing work made by CaptainHook ( https://github.com/CaptainHookPhp/captainhook ) by sebastianfeldmann!
+
+## How it works
+This repo must be forked letting you specify your new amazing hooks into DadolunHook\App\Runner\Configurator\Setup\Dadolun class. This is only an example to how captainhook original extension can be extented and customized with new hooks without touching the original repo.
 
 ## Installation
 
@@ -71,3 +73,4 @@ Here's an example *captainhook.json* configuration file.
     "actions": []
   }
 }
+```
