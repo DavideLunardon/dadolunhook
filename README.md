@@ -1,4 +1,4 @@
-# dadolunhook
+9# dadolunhook
 CaptainHook extension adding customized hooks
 Thanks for the amazing work made by CaptainHook ( https://github.com/CaptainHookPhp/captainhook ) by sebastianfeldmann!
 
@@ -29,7 +29,7 @@ Add the dependency to your `composer.json`:
 
 Use *Composer* to install *DadolunHook*.
 ```bash
-    $ composer require --dev davidelunardon/dadolunhook
+    $ composer require --dev dadolun95/dadolunhook
 ```
 
 ## Setup
