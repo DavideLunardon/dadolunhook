@@ -3,7 +3,7 @@
   "description": "Captainhook extension adding custom hooks",
   "type": "library",
   "keywords": ["git", "hooks", "pre-commit", "pre-push", "commit-msg", "captainhook"],
-  "homepage": "https://github.com/DavideLunardon/dadolunhook",
+  "homepage": "https://github.com/dadolun95/dadolunhook",
   "license": "OSL-3.0",
   "authors": [
     {
