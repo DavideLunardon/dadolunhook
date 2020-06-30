@@ -18,7 +18,7 @@ Add the dependency to your `composer.json`:
       },
       "repositories": [
         ...
-        {
+        "dadolun95-public":{
           "type": "vcs",
           "url":  "git@github.com:dadolun95/dadolunhook.git"
         },
