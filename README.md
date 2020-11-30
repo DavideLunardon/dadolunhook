@@ -1,4 +1,4 @@
-9# dadolunhook
+## dadolunhook
 CaptainHook extension adding customized hooks
 Thanks for the amazing work made by CaptainHook ( https://github.com/CaptainHookPhp/captainhook ) by sebastianfeldmann!
 
